@@ -37,7 +37,10 @@ nav li {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/wall.jpeg) no-repeat center center;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url(../img/wall.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -129,10 +132,13 @@ nav li {
   transition:border-color .25s ease, box-shadow .25s ease;
   &:focus {
         outline:0;
-        border-color:#1ab188;
+        border-color: #1ab188;
   }
 }
 
+.signup{
+    color:#a0b3b0;
+}
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
@@ -202,12 +208,13 @@ nav li {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 30px 0;
     background-color: #f8f8f8;
 }
 
 p.copyright {
-    margin: 15px 0 0;
+    font-size: 18px;
+    color: #000;
 }
 
 .email {
